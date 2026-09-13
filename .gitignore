@@ -1,4 +1,4 @@
-﻿# Environments and Secrets
+# Environments and Secrets
 .env
 .env.local
 *.env
@@ -18,6 +18,8 @@ build/
 
 # Databases & local storage
 *.db
+*.db-shm
+*.db-wal
 *.sqlite
 *.sqlite3
 *.duckdb
